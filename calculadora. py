@@ -1,0 +1,13 @@
+# Mi primer script en Python para GitHub
+def calcular_ganancia(ventas, costos):
+  return ventas - costos
+
+
+ingresos = 100.0
+gastos = 35.0
+resultado = calcular_ganancia(ingresos, gastos)
+
+print("--- MI PRIMER CONTROL FINANCIERO ---")
+print(f"Ingresos: ${ingresos}")
+print(f"Gastos: ${gastos}")
+print(f"Ganancia Total: ${resultado}")
